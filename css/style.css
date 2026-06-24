@@ -1,5 +1,5 @@
 /* Created by user on 6/23/2026, 8:48:50 PM */
-/* Last modified by user on 6/23/2026, 8:52:39 PM */
+/* Last modified by user on 6/24/2026, 11:31:36 PM */
 body{
     margin: 0;
     padding: 0;
@@ -168,7 +168,7 @@ body{
     top: 12%;
     position: absolute;
     z-index: 9;
-    display: non;
+    display: none;
 }
 
 .notification-div:after{
@@ -222,12 +222,121 @@ body{
     color: white;
 }
 
+
 .search-icon{
     position: absolute;
     right: 22%;
     top: 25px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 21px;
+    color: #404c8f;
+    cursor: pointer;
 
 }
+
+.noti-icon{
+    position: absolute;
+    right: 17%;
+    top: 25px;
+    background-color: #5643ff;
+    padding: 13px;
+    border-radius: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.noti-icon:after{
+    content: " ";
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    top: 5px;
+    left: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+.col-div-4-1{
+    width: 33.3%;
+    float: left;
+}
+
+.box{
+    width: 88%;
+    height: 130px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 10px #ddd;
+    position: relative;
+}
+
+.box p{
+    color: #6c7293;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.number{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.percent{
+    margin: 0;
+    font-size: 14px;
+    color: #37bf37;
+}
+.percent span{
+    font-size: 12px;
+    color: #9398b1;
+}
+
+.head-1{
+    font-size: 18px! important;
+    margin: 10px 0;
+    color: #6c7293;
+}
+.head-1 span{
+    float: right;
+    background-color: #5643ff;
+    color: white;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.box-icon{
+    right: 16px;
+    top: -18px;
+    font-size: 20px! important;
+    margin-top: 35px! important;
+    padding-right: 10px;
+    padding: 15px;
+    color: #5643ff;
+    background-color: #efeff5;
+    position: absolute;
+    border-radius: 25px;
+
+}
+
+.box-1{
+    width: 88%;
+    height: 282px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 5px 10px #ddd;
+}
+
+.m-box{
+    color: #6c7293;
+    position: relative;
+    padding: 0 12px;
+}
+
 
 
 
@@ -243,3 +352,8 @@ body{
         transform: rotate(126deg);
     }
 }
+
+
+
+
+
