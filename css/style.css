@@ -1,5 +1,5 @@
 /* Created by user on 6/23/2026, 8:48:50 PM */
-/* Last modified by user on 6/24/2026, 11:31:36 PM */
+/* Last modified by user on 7/2/2026, 10:31:06 PM */
 body{
     margin: 0;
     padding: 0;
@@ -15,12 +15,13 @@ body{
     font-weight: bold;
     color: white;
     margin-bottom: 30px;
+    color: red;
 }
 
 .sidenav{
     height: 100%;
     width: 300px;
-    font-weight: bol;
+    font-weight: bold;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -46,11 +47,13 @@ body{
     margin-bottom: 50px;
     display: none;
     cursor: pointer;
+    background-color: orange;
 }
 
 .menu1{
     float: left;
     display: none;
+    color: purple;
 }
 
 .sidenav a {
@@ -103,7 +106,7 @@ body{
 
 .profile p{
     color: #6c7293;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 35px;
     margin-top: 10px;
     font-size: 13.5px;
@@ -116,6 +119,7 @@ body{
 
 .dots{
     margin-left: 10px;
+    color: #37bf37;
 }
 
 .profile-div{
@@ -287,7 +291,7 @@ body{
 .percent{
     margin: 0;
     font-size: 14px;
-    color: #37bf37;
+    color: #37bf37! important;
 }
 .percent span{
     font-size: 12px;
@@ -307,7 +311,7 @@ body{
     font-size: 15px;
 }
 
-.box-icon{
+ .box-icon{
     right: 16px;
     top: -18px;
     font-size: 20px! important;
@@ -336,12 +340,135 @@ body{
     position: relative;
     padding: 0 12px;
 }
+.active{
+    background-color: #5643ff;
+    color: white;
+    box-shadow: 4px 3px 7px 3px #3226ad54;
+}
 
+.active .no-1{
+    color: #ddd! important;
+}
 
+.m-box p{
+  display: inline-block; 
+  margin: 10px 0; 
+}
 
+.no{
+    position: absolute! important;
+    color: white;
+    top: 21px;
+    right: 15px;
+    font-weight: 500;
+}
 
+.no-1{
+    font-size: 12px;
+    color: #9398b1;
 
+}
 
+.act-p{
+    font-size: 13px;
+    color: #6c7293;
+}
+.act-p .fa{
+    
+    color: orange! important;
+}
+
+.content-box-1{
+    padding: 0 10px;
+}
+
+.col-div-12{
+    width: 100%;
+}
+.col-div-4{
+    width: 30%;
+    float: left;
+}
+.content-box{
+    padding: 20px;
+}
+.content-box p{
+    margin: 0;
+    font-size: 20px;
+    color: #6c7293;
+}
+.content-box p span{
+    float: right;
+    background-color: #5643ff;
+    font-size: 15px;
+    font-size: 3px 10px;
+    color: white;
+}
+
+.box-8{
+    width: 97.8%;
+    background-color: #fff;
+    height: 330px;
+}
+
+.nav{
+    font-size: 30px;
+    cursor: pointer;
+    color: #6c7293;
+    margin: 11px 0;
+}
+
+.box-8{
+    margin-left: 10px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #6c88be;
+}
+
+td, th{
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #5643ff29;
+    color: #6c7293! important;
+}
+
+.circle-wrap{
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background: #ebe2e7;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle-wrap .circle .mask {
+    clip-path: rect(0px, 150px, 150px, 75px);
+    
+}
+.circle-wrap .circle .mask .fill{
+    clip-path: rect(0px, 75px, 150px, 0px);
+    background-color: #5646ff;
+}
+
+.circle-wrap .circle .mask .full,
+.circle-wrap .circle .fill{
+    animation: fill ease-in-out 3s;
+    transform: rotate(126deg);
+}
 
 
 @keyframes fill{
@@ -351,6 +478,22 @@ body{
     100%{
         transform: rotate(126deg);
     }
+}
+
+.circle-wrap .inside-circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+    color: #6c7293;
 }
 
 
